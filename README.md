@@ -44,7 +44,7 @@ We implemented several modifications to enhance generalization on transformed an
 As shown in the error rate graph, LeNet2 achieved rapid initial convergence, with training error decreasing from 21% to below 8% within the first few epochs. However, the test error remained consistently low and stable, around 1.1%, indicating strong generalization performance. Unlike the first model, LeNet2 avoided overfitting, likely due to the inclusion of dropout layers and a more resilient activation/pooling strategy. The final test error was 1.1%, corresponding to a test accuracy of 98.9% on the transformed MNIST dataset.  
 ![Training and test error rate on the modified LeNet-5](images/Error_Rate_Graph_2.png)  
 Figure 5: Training and Test Error (LeNet2)    
-![Confusion matrix for the modified LeNet on transformed MNIST data](images/onfusion_Matrix_2.png)  
+![Confusion matrix for the modified LeNet on transformed MNIST data](images/Confusion_Matrix_2.png)  
 Figure 6: Confusion Matrix for Modified LeNet on Transformed MNIST Data    
 ![Most Confusing Examples per Digit for modified model](images/Most_Confusing_Example_2.png)  
 Figure 7: Most Confusing Examples per Digit for Modified Model (True Label vs. Predicted Label)
